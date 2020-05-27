@@ -1,9 +1,9 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-host_address = "9d8e7540a04f8a"
-host_pass = "d788d7303e7936"
-guest_address = "shubhamkhandelwal523@gmail.com"
+host_address = "0bfb8adbc2b041"
+host_pass = "6de9f373ca7752"
+guest_address = "priyabhargava07@gmail.com"
 subject = "Regarding failure of rebuild.py"
 content = '''Hello, 
 				Developer is in the last commit regarding error . it is rebuild agin
