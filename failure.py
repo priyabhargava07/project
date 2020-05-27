@@ -13,7 +13,7 @@ message['From'] = host_address
 message['To'] = guest_address
 message['Subject'] = subject
 message.attach(MIMEText(content, 'plain'))
-session = smtplib.SMTP('smtp.mailtrap.io', 587)
+session = smtplib.SMTP('smtp.mailtrap.io', 2525)
 session.starttls()
 session.login(host_address, host_pass)
 text = message.as_string()
